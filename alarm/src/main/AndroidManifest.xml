@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.dicoding.picodiploma.covid19.alarm">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_alarm">
+        <dist:delivery>
+            <dist:on-demand />
+        </dist:delivery>
+
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application>
+        <receiver android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity android:name=".AlarmActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data
+                    android:scheme="covid19"
+                    android:host="alarm"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

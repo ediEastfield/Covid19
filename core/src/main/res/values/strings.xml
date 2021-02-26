@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_description">Image</string>
+    <string name="text_primary">Sample of title text</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+    <string name="text_description">Sample of description text</string>
+    <string name="text_publishedAt">Sample of publishedAt text</string>
+    <string name="text_author">Sample of author text</string>
+    <string name="text_name_country">Country</string>
+    <string name="text_count">10000</string>
+</resources>

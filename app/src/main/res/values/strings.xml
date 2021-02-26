@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="image_description">Image</string>
+    <string name="text_primary">Sample of title text</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+    <string name="text_description">Sample of description text</string>
+    <string name="text_publishedAt">Sample of publishedAt text</string>
+    <string name="text_author">Sample of author text</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_news">News</string>
+    <string name="menu_alert">Alert</string>
+    <string name="menu_bookmark">Bookmark</string>
+
+    <string name="tabs_cases">Cases</string>
+    <string name="tabs_recovered">Recovered</string>
+    <string name="tabs_death">Deaths</string>
+
+    <string name="title_activity_detail_news">DetailNewsActivity</string>
+    <string name="title_activity_web_news">News</string>
+    <string name="no_data">Empty data</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+
+    <string name="text_name_country">Country</string>
+    <string name="button_read_more">Read more</string>
+
+    <string name="time_setting">Time</string>
+    <string name="reminder">Reminder at 9:00 AM</string>
+    <string name="alarm_on">Alarm aktif</string>
+    <string name="alarm_off">Alarm nonaktif</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
